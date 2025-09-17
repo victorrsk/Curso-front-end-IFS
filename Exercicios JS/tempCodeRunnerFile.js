@@ -1,1 +1,1 @@
-lucro / valor_custo
+[carro] =
