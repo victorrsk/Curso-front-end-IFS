@@ -1,1 +1,1 @@
-[carro] =
+lancha

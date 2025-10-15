@@ -14,3 +14,5 @@ function calcMargemProduto(valor_venda, valor_custo){
 for (let i = 0; i <= 10; i++){
     console.log(calcMargemProduto(1800, 1500))
 }
+
+

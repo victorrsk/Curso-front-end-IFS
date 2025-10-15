@@ -16,3 +16,6 @@ numero -= dezenas * 10
 
 // usei a variável numero para representar as unidades visto que o valor que numero possui ao final do programa representa somente as unidades restantes
 console.log('Ele tem', centenas, 'centenas,', dezenas, 'dezenas e', numero, 'unidades.')
+
+
+
