@@ -1,0 +1,23 @@
+
+nav a {
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 80px;
+    background-color: rgb(39, 41, 42);
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+}
