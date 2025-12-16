@@ -1,0 +1,38 @@
+.container {
+    border: 10px solid black;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-content: center;
+    flex-direction: row;
+}
+
+.container div{
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+
+#box1 {
+    background-color: #ff6363;
+}
+#box2 {
+    background-color: #63b9ff;
+}
+#box3 {
+    background-color: #dd63ff;
+}
+#box4 {
+    background-color: #eaff63;
+}
+#box5 {
+    background-color: #3cff53;
+}
+#box6 {
+    background-color: burlywood;
+}
