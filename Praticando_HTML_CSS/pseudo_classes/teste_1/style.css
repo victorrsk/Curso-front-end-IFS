@@ -1,0 +1,61 @@
+
+.l-mangas {
+    list-style: none;
+    font-size: 150%;
+    padding: 0%;
+}
+
+.l-mangas li {
+    border-bottom: 2px solid grey;
+    transition-property: font-size, background-color;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
+
+.l-mangas li:last-child {
+    border-style: none;
+}
+
+.l-mangas li:hover {
+    font-size: 155%;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+h2:hover {
+    color: rgb(119, 0, 255);
+    font-size: 220%;
+    background-color: darkgrey;
+}
+
+#name:focus {
+    background-color: rgb(255, 255, 76);
+}
+
+#send:hover {
+    background-color: rgb(163, 163, 163);
+    font-size: 120%;
+}
+
+#send:active {
+    background-color: red;
+}
+
+#botao:active {
+    background-color: blueviolet;
+}
