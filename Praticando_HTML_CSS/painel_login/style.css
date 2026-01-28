@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(30, 19, 47);
+    justify-content: center;
+    align-content: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(120, 91, 151);
+}
+
+.login label {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.login-field input {
+    text-align: center;
+    border-radius: 6px;
+    height: 20px;
+}
