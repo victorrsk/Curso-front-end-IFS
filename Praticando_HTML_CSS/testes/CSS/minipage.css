@@ -1,0 +1,31 @@
+header {
+    background-color: rgb(1, 174, 255);
+    height: 150px;
+
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 8px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    box-shadow: 1px 1px 3px 4px rgba(44, 44, 44, 0.671) inset
+}
+
+footer {
+    background-color: rgb(1, 174, 255);
+    height: 150px;
+}
+
+p {
+    text-shadow: 0 0 2px blue, 0 0 5px red
+}
+
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
