@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { ThemeContext } from '../components/providers/ThemeProvider'
 
 function App() {
   const [count, setCount] = useState(0)
+  const {theme, toggleTheme} = useContext(ThemeContext)
 
   return (
     <>
@@ -16,11 +18,14 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Curso</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <br />
+        <br />
+        <button onClick={toggleTheme}>Mude o tema</button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>

@@ -1,0 +1,30 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.page.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+.page.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
