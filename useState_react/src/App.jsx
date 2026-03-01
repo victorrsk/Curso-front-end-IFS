@@ -11,9 +11,9 @@ function Button({children='default', ...props}) {
 function App() {
   return (
     <>
-      <Button children='botão1' title='botao'/>
-      <Button children='botão2'/>
-      <Button children='botão3'/>
+      <Button children='botão1' title='botao' style={{margin: '10px'}}/>
+      <Button children='botão2' style={{margin: '10px'}}/>
+      <Button children='botão3' style={{margin: '10px'}}/>
     </>
   )
 }

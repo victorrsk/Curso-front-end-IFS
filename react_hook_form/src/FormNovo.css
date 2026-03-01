@@ -1,0 +1,29 @@
+.form-novo {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px;
+  background-color: rgb(77, 71, 75);
+}
+
+.form-novo input{
+  margin-left: 5px;
+  margin-bottom: 5px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.form-novo label, .form-novo input{
+  margin-top: 5px
+}
+
+.form-novo input[type=submit]{
+  height: 35px;
+}
+
+.form-novo input[type=radio]
+
+.form-novo input[type=submit]:hover {
+  background-color: rgb(158, 158, 158);
+}
